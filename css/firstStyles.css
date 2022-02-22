@@ -1,0 +1,101 @@
+    /* css reset .......................*/
+    
+    body {
+        font-family: blanka, sans-serif;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color: inherit;
+    }
+    
+    a {
+        text-decoration: none;
+        color: initial;
+    }
+    
+    a:hover {
+        text-decoration: none;
+    }
+    /* fonts ...........................*/
+    
+    @font-face {
+        font-family: blanka;
+        src: url("../fonts//Far_Casablanca.ttf");
+    }
+    
+    @font-face {
+        font-family: yekan;
+        src: url("../fonts/Yekan.woff");
+    }
+    /* utitilites ................ */
+    
+    .first-color {
+        color: var(--firc);
+    }
+    
+    .second-color {
+        color: var(--secc);
+    }
+    
+    .third-color {
+        color: var(--thic);
+    }
+    
+    .fourth-color {
+        color: var(--fouc);
+    }
+    
+    .fifth-color {
+        color: var(--fifc);
+    }
+    
+    .sixth-color {
+        color: var(--sixc);
+    }
+    
+     :root {
+        --firc: #de3e89;
+        --secc: #c1e6c4;
+        --thic: #fa70f5;
+        --fouc: #37daa4;
+        --fifc: #faeaea;
+        --sixc: #222427;
+    }
+    /* -------- */
+    
+    .bg-first-color {
+        background: var(--firc)
+    }
+    
+    .bg-second-color {
+        background: var(--secc)
+    }
+    
+    .bg-third-color {
+        background: var(--thic)
+    }
+    
+    .bg-fourth-color {
+        background: var(--fouc)
+    }
+    
+    .bg-fifth-color {
+        background: var(--fifc)
+    }
+    /* -------------------- */
+    
+    .lh-1 {
+        line-height: 20px;
+    }
+    
+    .lh-2 {
+        line-height: 30px;
+    }
+    
+    .lh-3 {
+        line-height: 40px;
+    }
+    /* utitilites ........................................................................................................................ */
